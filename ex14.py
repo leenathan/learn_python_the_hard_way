@@ -1,11 +1,14 @@
+#redone 14 June 2015
+#Prompting and Passing
+
 from sys import argv
 
 script, user_name = argv
-prompt = '!!! '
+prompt = '--> '
 
-print "Hi %s, I'm the %s script." % (user_name, script)
+print "Hi %s, I'm the %s script." % (user_name,script)
 print "I'd like to ask you a few questions."
-print "DO you like me %s?" % user_name
+print "Do you like me %s?" % user_name
 likes = raw_input(prompt)
 
 print "Where do you live %s?" % user_name

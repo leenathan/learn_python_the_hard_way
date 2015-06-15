@@ -1,2 +1,4 @@
 Forgot to use commas to feed values to format variables!
 Don't run 'python' in powershell at the beginning. cd to the proper dir, then 'python ex3.py'
+
+Pydoc: python -m pydoc <stuff>
