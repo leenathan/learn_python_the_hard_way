@@ -1,7 +1,10 @@
-# Here's some new strange stuff, remember type it exactly.
+#Redone 14 June 2015
+#Printing, printing, printing
 
-days = "Mon Tue Wed Th Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+#Here's some new strange stuff, remember type it exactly
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 print "Here are the days: ", days
 print "Here are the months: ", months
