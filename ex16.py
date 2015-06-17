@@ -31,14 +31,31 @@ line3 = raw_input("Line 3: ")
 
 print "I'm going to write these to the file."
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write("%s\n%s\n%s\n" % (line1, line2, line3))
+#single write line
+
+#target.write("\n")
+#target.write(line2)
+#target.write("\n")
+#target.write(line3)
+#target.write("\n")
 #writes lines, with new line after each
 
 print "And finally, we close it."
 target.close()
 #closes file
+
+file_to_read = raw_input("Tell me a file to read: ")
+#prompts for new file read
+
+file_again = open(file_to_read)
+#sets new variable as opened file
+
+print file_again.read()
+#prints read contents of file
+
+print "Closing this file."
+file_again.close()
+#closes file
+
+print "Goodbye!"
