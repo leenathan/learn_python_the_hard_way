@@ -45,3 +45,16 @@ print "That becomes: ", what, "Can you do it by hand?"
 what2 = divide(divide(height,weight),age)
 
 print "Here's your age-normalized body ratio: ",what2,"!"
+
+#24 + 34 / 100 - 1023
+print "Zed's formula: 23 + 34 / 100 - 1023"
+print add(24,divide(34,subtract(100,1023)))
+
+print "Okay gimme some numbers"
+a = float(raw_input("a:"))
+b = float(raw_input("b:"))
+c = float(raw_input("c:"))
+d = float(raw_input("d:"))
+
+print "We'll do %s + %s - %s / %s" % (a,b,c,d)
+print add(a,subtract(b,divide(c,d)))

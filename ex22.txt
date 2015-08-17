@@ -1,26 +1,39 @@
-print
-#
-+
-/
--
-*
-%
->
->=
-<=
-,
-"
-=
-_
-(
-)
-%r
-%s
-\n
+print - prints code to terminal. Whatever is enclosed in quotation marks.
+# - comment. Anything following this symbol on a line is commented, aka does nothing code-wise
++ - adds stuff
+/ - divides stuff
+- - subtracts stuff
+* - multiplies stuff
+% - modulus stuff. Whatever remainder is after division.
+< - less than
+> - greater than. Inwquality operator.
+>= - greater than or equal to
+<= - less than or equal to 
+, - combines two items of display, text or variables
+" - quote. Indicates text, when at start and end of text.
+= - equal sign. Sets variable's value.
+== - Inequality operator. Tests if two things on either side are equal.
+_ - underscore. Used sometimes to add detail to variable names while not breaking text string with a space
+( - open parenthesis
+) - closed parenthesis
+%r - formatter, raw formatting. Prints value no matter what
+%s - string formatter, prints a string variable
+%d - 
+\n - new line character
 """
-\t
-\\
-\r
+\t - escape sequence for tab
+\\ - escape sequence for backslash
+\r - escape sequence for return
+\' - escape sequence for single quote
+\" - escape sequence for double quote
+\a - escape sequence for bell?
+\b - escape sequence for backspace
+\f - escape sequence for formfeed
+\uxxxx - escape sequence for 16-bit hex character xxxx
+\Uxxxxxxxx - escape sequence for 32-bit hex character xxxxxxxx
+\v - escape sequence for vertical tab
+\ooo - escape sequence for octal value oo
+\xhh - escape sequence for hex value hh
 raw_input()
 int
 argv
