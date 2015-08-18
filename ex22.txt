@@ -18,9 +18,9 @@ _ - underscore. Used sometimes to add detail to variable names while not breakin
 ) - closed parenthesis
 %r - formatter, raw formatting. Prints value no matter what
 %s - string formatter, prints a string variable
-%d - 
+%d - string formatter, prints a decimal (integer) value
 \n - new line character
-"""
+""" - Turns comments on or off. From first set of """, everything is commented until next set of """.
 \t - escape sequence for tab
 \\ - escape sequence for backslash
 \r - escape sequence for return
@@ -34,21 +34,21 @@ _ - underscore. Used sometimes to add detail to variable names while not breakin
 \v - escape sequence for vertical tab
 \ooo - escape sequence for octal value oo
 \xhh - escape sequence for hex value hh
-raw_input()
-int
-argv
+raw_input() - prompts for input from user. String enclosed in parenthesis shows as prompt.
+int() - converts something to an integer
+argv - argument variable. Holds the arguments you pass
 from
 sys
-import
-open()
-read()
-close()
-truncate()
-write()
+import - Import a feature from the python feature set
+open() - Open file. Argument of funciton is variable with value of file name
+read() -Reads contents of file. No argument necessary. Use like variable.read()
+close() - Close a file. No argument necessary. Use like variable.close()
+truncate() - Empties a file.
+write() - Writes stuff, within parenthesis. Use like variable.write("stuff")
 os.path
-exists
-def
-:
+exists() - Tests to see if a file argument exists
+def - defines a function
+: - delineates the start of a function body. Placed after arguments of function definition.
 seek()
 readline()
 +=
