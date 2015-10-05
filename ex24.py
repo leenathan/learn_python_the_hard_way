@@ -1,18 +1,22 @@
+##ex24
+##More practice
+##re-re-done 4 Oct 2015
+
 print "Let's practice everything."
-print 'You\'d need to know \'bout escapes with \\that do\n newlines and \t tabs/'
+print "You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs and such."
 
 poem = """
-\tThe lovely world
+\t The lovely world
 with logic so firmly planted
 cannot discern \n the needs of love
-nor comprehend passion from intuition
+nor comprehend passion from intuition 
 and requires an explanation
 \n\t\twhere there is none.
 """
 
-print "----------"
+print "--------"
 print poem
-print "----------"
+print "--------"
 
 five = 10 - 2 + 3 - 6
 print "This should be five: %s" % five
@@ -24,11 +28,9 @@ def secret_formula(started):
 	return jelly_beans, jars, crates
 	
 start_point = 10000
-
-#assigns variable values using secret_formula 
 beans, jars, crates = secret_formula(start_point)
 
-print "With a starting point of: %d" % start_point
+print "with a starting point of %d" % start_point
 print "We'd have %d beans, %d jars, and %d crates." % (beans, jars, crates)
 
 start_point = start_point / 10
